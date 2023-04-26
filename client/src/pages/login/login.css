@@ -1,0 +1,28 @@
+.longinContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px ;
+    height: 100vh;
+}
+
+.lInput{
+    height: 30px;
+    padding: 10px;
+}
+.lButton{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.lButton:disabled{
+    background-color: #0071c2;
+    cursor: not-allowed;
+
+}
